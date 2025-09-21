@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int sumup(int n) {
+    if (n <= 1)
+        return 1;
+    else
+        return (n + sumup(n - 1));
+}
+
+int main() {
+    int n = 5;
+    cout << "Sum of numbers up to " << n << " = " << sumup(n);
+    return 0;
+}
