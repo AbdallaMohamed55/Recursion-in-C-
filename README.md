@@ -7,12 +7,27 @@ To study and implement the concept of recursion in C++, where a function calls i
 
 # Theory
 
-Recursion is a process in which a function calls itself directly or indirectly until a base condition is met.
+Recursion is a programming technique in which a function calls itself either directly or indirectly to solve a problem. A recursive function solves a small part of the problem in each call and relies on the result of the subsequent recursive call to complete the solution.
 
-  * Base case: Stops recursion.
+Every recursive function has two essential components:
 
-  * Recursive case: Function calls itself with smaller input.
-  Examples include factorial calculation, Fibonacci series, reversing numbers, etc.
+1. Base Case: A terminating condition that stops the recursion and prevents infinite function calls.
+
+2. Recursive Case: The part of the function where it calls itself with a reduced or simpler version of the original problem.
+
+In C++, recursion is commonly used in problems like factorial calculation, Fibonacci series, Tower of Hanoi, searching, and sorting algorithms (like quicksort and mergesort).
+
+Advantages of recursion:
+
+  * Simplifies complex problems.
+
+  * Provides cleaner and shorter code.
+
+Disadvantages of recursion:
+
+  * May consume more memory due to repeated function calls.
+
+  * Can be slower compared to iterative solutions in some cases.
 
 # Procedure
 
